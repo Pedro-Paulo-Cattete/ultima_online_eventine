@@ -1,0 +1,13 @@
+
+Items.UseItem(0x4041CD08)
+Target.WaitForTarget(10000, False)
+Target.TargetExecute(1079024701)
+Misc.Pause(500)
+Items.UseItem(0x4041CD0A)
+Target.WaitForTarget(10000, False)
+Target.TargetExecute(1079024701)
+Misc.Pause(500)
+Items.UseItem(0x4041CD0B)
+Target.WaitForTarget(10000, False)
+Target.TargetExecute(1079024701)
+Misc.Pause(500)
