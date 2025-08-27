@@ -1,0 +1,6 @@
+Items.UseItemByID(0x097F, 0)
+Gumps.WaitForGump(0x38920abd, 10000)
+Gumps.SendAction(0x38920abd, 29)
+Gumps.WaitForGump(0x38920abd, 10000)
+Gumps.SendAction(0x38920abd, 16)
+Misc.Pause(1000)
