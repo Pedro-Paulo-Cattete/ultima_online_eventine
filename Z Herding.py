@@ -1,0 +1,6 @@
+Items.UseItem(0x4046562E)
+Target.WaitForTarget(10000, False)
+Target.TargetExecute(25130)
+Target.WaitForTarget(10000, False)
+Target.TargetExecute(6779, 973 ,1)
+Misc.Pause(100)
