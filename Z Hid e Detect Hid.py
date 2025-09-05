@@ -1,0 +1,18 @@
+while Player.GetRealSkillValue("Tracking") < Player.GetSkillCap("Tracking"):
+    Player.UseSkill("Spirit Speak")
+    Misc.Pause(5000)
+    Player.UseSkill("Tracking")
+    Gumps.WaitForGump(0xb16e7d71, 10000)
+    Gumps.SendAction(0xb16e7d71, 3)
+    Gumps.WaitForGump(0x3b378483, 10000)
+    Gumps.SendAction(0x3b378483, 1)
+    Misc.Pause(10000)
+else:
+    Player.UseSkill("Peacemaking")
+    Target.WaitForTarget(10000, False)
+    Target.TargetExecute(16741)
+    Misc.Pause(10000)
+    Player.UseSkill("Discordance")
+    Target.WaitForTarget(10000, False)
+    Target.TargetExecute(25130)
+    Misc.Pause(10000)
